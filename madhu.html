@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Madhu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+     * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #4A90E2;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin-left: 20px;
+}
+
+h4 {
+    margin: 5px 0;
+}
+
+hr {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #4A90E2;
+    border-bottom: 2px solid #4A90E2;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4A90E2;
+    color: white;
+}
+
+ul, ol {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+@media (max-width: 600px) {
+    .profile-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    p, h4 {
+        font-size: 1em;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Madhu</h1>
+            <img src="C:\Users\pc\Downloads\WhatsApp Image 2023-08-06 at 11.53.58 AM.jpeg" alt="Madhu" class="profile-image">
+            <h4>Age: 17 years</h4>
+            <h4>Experience: Fresher</h4>
+            <h4>Contact: 9306486144</h4>
+            <h4>Email: <a href="mailto:madhusehrawat85@gmail.com">madhusehrawat85@gmail.com</a></h4>
+        </header>
+
+        <hr/>
+
+        <section class="objective">
+            <h2>Career Objective</h2>
+            <p>Seeking a position in a reputed company where I can start my career and build a valuable skill set.</p>
+        </section>
+
+        <hr/>
+
+        <section class="academic-qualification">
+            <h2>Academic Qualification</h2>
+            <table>
+                <tr>
+                    <th>Course Name</th>
+                    <th>Board</th>
+                    <th>Year of Passing</th>
+                    <th>Percentage</th>
+                </tr>
+                <tr>
+                    <td>10th</td>
+                    <td>HBSE</td>
+                    <td>2021</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td>12th</td>
+                    <td>CBSE</td>
+                    <td>2023</td>
+                    <td>90.4%</td>
+                </tr>
+            </table>
+        </section>
+
+        <hr/>
+
+        <section class="graduation-qualification">
+            <h2>Graduation Qualification</h2>
+            <table>
+                <tr>
+                    <th>Course</th>
+                    <th>College</th>
+                    <th>Year</th>
+                    <th>Percentage</th>
+                </tr>
+                <tr>
+                    <td rowspan="6">Bachelor of Computer Application</td>
+                    <td rowspan="6">CBLU Campus Bhiwani</td>
+                    <td>1st Year - Sem 1</td>
+                    <td>77%</td>
+                </tr>
+                <tr>
+                    <td>1st Year - Sem 2</td>
+                    <td>71%</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">2nd Year</td>
+                    <td>Sem 3</td>
+                    <td>69%</td>
+                </tr>
+                <tr>
+                    <td>Sem 4</td>
+                    <td>81%</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">3rd Year</td>
+                    <td>Sem 5</td>
+                    <td>45%</td>
+                </tr>
+                <tr>
+                    <td>Sem 6</td>
+                    <td>59%</td>
+                </tr>
+            </table>
+        </section>
+
+        <hr/>
+
+        <section class="hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Photography</li>
+                <li>Watching Movies</li>
+            </ul>
+        </section>
+
+        <hr/>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ol>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>C Language</li>
+            </ol>
+        </section>
+
+        <footer>
+            <p>&copy; 2023 Madhu. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
